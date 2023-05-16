@@ -3,14 +3,9 @@ import { useState } from 'react';
 import { useDispatch } from 'react-redux';
 import { addNewTodo } from '../../../redux/action/index';
 
-const inputbox = () => {
+const Inputbox = () => {
 
-//   const formReducer= (state,event)=>{
-//     return{
-//    ...state,
-//    [event.target.name] :event.target.value
-//     }
-// }
+
 
   const [text, setText] = useState("");
 
@@ -54,6 +49,6 @@ const inputbox = () => {
   )
 }
 
-export default inputbox
+export default Inputbox
 
 
