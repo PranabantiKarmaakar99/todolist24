@@ -1,6 +1,6 @@
-import Connection from '../../lib/db.js';
+import Connection from '@/lib/db.js';
 // import Test from '../../lib/Todo.js';
-import Todo1 from '../../lib/Todo.js';
+import Todo1 from '@/lib/Todo.js';
 
 /**
  * @param {import('next').NextApiRequest} req
