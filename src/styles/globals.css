@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+body {
+    /* background-image: url("../../public/Background2.png"); */
+    /* background-size: contain; */
+    /* background-position: 100% 100%; */
+    /* background-position: center center;
+    background-color: rgba(0,0,0, 0.5);  */
+ 
+ 
+
+
+}
+
+::placeholder {
+    padding: 5px 12px;
+    margin: 5px;
+   
+ }
+
+
+
