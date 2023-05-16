@@ -6,7 +6,7 @@ import { ADDNEW_TODO, GETALL_TODO, TOGGLE_TODO, UPDATE_TODO, DELETE_TODO, TOGGLE
 
 export const addNewTodo = (data) => async (dispatch) => {
 
-    const res = await fetch('http://localhost:3000/api/test/add', {
+    const res = await fetch('/api/test/add', {
       method: 'POST',
       body: JSON.stringify({ data }),
       headers: {

@@ -46,5 +46,5 @@ module.exports = () => {
     
     });
    
-    return mongoose.model('Todo1', Todo1Schema);
+    return  mongoose.model('Todo1', Todo1Schema)
    }
