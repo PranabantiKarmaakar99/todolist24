@@ -22,5 +22,17 @@ body {
    
  }
 
+ .edit-todo {
+    width: 85%;
+    /* font-size: 16px; */
+    color: #0d0c0c;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #161515;
+
+
+
+ }
+
 
 
