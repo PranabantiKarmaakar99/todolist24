@@ -6,7 +6,7 @@ import { BiEditAlt } from "react-icons/bi";
 
 import { useDispatch, useSelector } from 'react-redux';
 // import { toggleTodos } from '../../../redux/action';
-import { toggleTodos, removeTodos, updateTodos } from "../../../redux/action";
+import { toggleTodos, removeTodos, updateTodos } from "../../redux/action";
 
 const Todos = ({todo}) => {
 
@@ -23,6 +23,10 @@ const Todos = ({todo}) => {
 //    dispatch(getAllTodos());
   
 //   },[])
+
+if (!todo) {
+  return null; 
+}
 
 
 const onFormSubmit = (e) => {

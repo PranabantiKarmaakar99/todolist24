@@ -1,10 +1,10 @@
 
 import react from "react";
-import Header from "./components/header";
-import Input from "./components/inputbox";
-import Tabs from "./components/tab";
-import Todolist from "./components/todolist";
-import Searchbar from "./components/searchbar";
+import Header from "../components/header";
+import Input from "../components/inputbox";
+import Tabs from "../components/tab";
+import Todolist from "../components/todolist";
+import Searchbar from "../components/searchbar";
 
 
 import Image from "next/image";

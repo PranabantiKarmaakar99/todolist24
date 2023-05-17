@@ -1,7 +1,7 @@
 import React from 'react';
 import { useState } from 'react';
 import { useDispatch } from 'react-redux';
-import { addNewTodo } from '../../../redux/action/index';
+import { addNewTodo } from '../../redux/action/index';
 
 const Inputbox = () => {
 

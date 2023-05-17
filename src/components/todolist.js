@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 
 import { useDispatch, useSelector } from "react-redux";
-import { getAllTodos } from "../../../redux/action";
+import { getAllTodos } from "../../redux/action";
 
 
 import Todo from "./todos24.js";
@@ -16,6 +16,7 @@ const Todolist = () => {
 
   useEffect(() => {
     dispatch(getAllTodos());
+      // eslint-disable-next-line react-hooks/exhaustive-deps
   },[]);
 
 
