@@ -5,7 +5,7 @@ import { useDispatch } from "react-redux";
 import {toggleTabs} from "../../redux/action/index";
 
 
-const tab = ({currentTab}) => {
+const Tab = ({currentTab}) => {
   const dispatch = useDispatch();
 
   return (
@@ -35,4 +35,4 @@ const tab = ({currentTab}) => {
   )
 }
 
-export default tab
+export default Tab
