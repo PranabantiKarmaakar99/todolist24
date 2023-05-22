@@ -1,6 +1,6 @@
 
 
-import { ADDNEW_TODO, GETALL_TODO, TOGGLE_TODO, UPDATE_TODO, DELETE_TODO, TOGGLE_TAB } from '../reducer/type';
+import { ADDNEW_TODO, GETALL_TODO, TOGGLE_TODO, UPDATE_TODO, DELETE_TODO, TOGGLE_TABS } from '../reducer/type';
 
 
 
@@ -122,5 +122,14 @@ export const removeTodos = (_id) => async (dispatch) => {
   } catch (error) {
     console.error(error);
   }
+};
+
+export const toggleTabs = (tab) => async (dispatch) => {
+
+   
+
+    dispatch({ type:TOGGLE_TABS, selected:tab});
+
+
 };
 

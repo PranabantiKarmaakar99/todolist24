@@ -7,11 +7,11 @@ import { composeWithDevTools } from "@redux-devtools/extension";
 import { createWrapper } from "next-redux-wrapper";
 
 import { todoReducer } from './reducer/todoReducer';
-// import { tabReducer } from './reducers/tabReducer';
+import  tabReducer  from './reducer/tabReducer';
 
 const reducer = combineReducers({
-    todos: todoReducer
-    // currentTab: tabReducer
+    todos: todoReducer,
+    currentTab:tabReducer
 })
 
 

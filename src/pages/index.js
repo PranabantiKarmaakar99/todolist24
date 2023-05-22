@@ -29,7 +29,7 @@ export default function Home() {
       <Searchbar  />
      {/* <Header /> */}
      <Input />
-     <Tabs />
+     {/* <Tabs /> */}
      <Todolist  />
       
    
